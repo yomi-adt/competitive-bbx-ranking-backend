@@ -6,7 +6,7 @@ plugins {
 
 group = 'com.yomi-adt'
 version = '0.0.1-SNAPSHOT'
-description = 'Manitoba's Competitive Beyblade X Rankings Backend'
+description = 'Manitoba\'s Competitive Beyblade X Rankings Backend'
 
 java {
 	toolchain {
@@ -20,6 +20,7 @@ repositories {
 
 dependencies {
 	implementation 'org.xerial:sqlite-jdbc:3.45.1.0'
+	implementation 'org.springframework.boot:spring-boot-starter'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-webmvc'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
