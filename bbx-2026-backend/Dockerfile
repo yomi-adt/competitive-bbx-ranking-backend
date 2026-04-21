@@ -1,6 +1,6 @@
 FROM eclipse-temurin:25-jdk
 
-WORKDIR /
+WORKDIR /bbx-2026-backend
 
 COPY build/libs/*.jar app.jar
 
