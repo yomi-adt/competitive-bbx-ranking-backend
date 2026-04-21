@@ -1,6 +1,6 @@
 FROM eclipse-temurin:25-jdk
 
-WORKDIR /app
+WORKDIR /
 
 COPY build/libs/*.jar app.jar
 
