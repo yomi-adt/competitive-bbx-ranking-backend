@@ -4,6 +4,9 @@ FROM eclipse-temurin:25-jdk AS builder
 WORKDIR /app
 COPY . .
 
+# makes gradlew executable -> Otherwise get "Permission Denied"
+RUN chmod +x ./gradlew
+
 RUN ./gradlew clean bootJar --no-daemon
 
 # ---- Run stage ----
