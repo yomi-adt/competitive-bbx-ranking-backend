@@ -38,3 +38,6 @@ out/
 
 ### Config files
 src/main/resource/application.properties
+
+## Environment variables
+.env
