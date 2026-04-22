@@ -23,5 +23,4 @@
 hs_err_pid*
 replay_pid*
 
-bbx-2026-backend/src/main/resource/application.properties
 bbx-2026-backend/.env
