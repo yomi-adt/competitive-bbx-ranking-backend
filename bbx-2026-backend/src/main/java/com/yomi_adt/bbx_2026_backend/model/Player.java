@@ -17,6 +17,12 @@ public class Player {
     @Column(name = "blader_name", nullable = false)
     private String bladerName;
 
+    @Column(name = "signature_combo", nullable = true)
+    private String signatureCombo;
+
+    @Column(name = "blader_lore", nullable = true)
+    private String bladerLore;
+
     @Column(name = "ranked_points", nullable = false)
     private Integer rankedPoints = 0;
 
@@ -63,5 +69,21 @@ public class Player {
 
     public void setGuild(Guild guild) {
         this.guild = guild;
+    }
+
+    public String getSignatureCombo() {
+        return signatureCombo;
+    }
+
+    public void setSignatureCombo(String signatureCombo) {
+        this.signatureCombo = signatureCombo;
+    }
+
+    public String getBladerLore() {
+        return bladerLore;
+    }
+
+    public void setBladerLore(String bladerLore) {
+        this.bladerLore = bladerLore;
     }
 }
